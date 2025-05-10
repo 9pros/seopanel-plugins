@@ -1,0 +1,44 @@
+.alertdiv, #alerttokenexpiry {
+	margin-top: 10px;
+	border: 1px solid  #FFBB00; padding: 5px 10px; background-color: #FDFEB8; height: auto;
+}
+
+input.date{width: 78px; margin-right: 0px;}
+input.large{width: 500px;}
+pre.help_text{font-size: 12px;}
+
+.img_preview{
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   margin: 0 auto;
+   background: white;
+   float: left;
+}
+
+.img_upload {
+	padding-top: 8px;
+	clear: both;
+}
+
+.button{
+   border: 0px;
+   background-color: deepskyblue;
+   color: white;
+   padding: 5px 15px;
+   margin-left: 10px;
+}
+
+.media_preview{
+	margin: 6px;
+	border: 1px solid  #FFBB00;
+	padding: 10px;
+	background-color: floralwhite; 
+	height: auto;
+	max-width: 400px;
+}
+
+.media_preview .prev_msg{margin-top: 8px;}
+
+.char_count{padding-top: 4px;}
+.char_count span{font-weight: bold;}

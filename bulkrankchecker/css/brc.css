@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+#run_info {
+	margin: 15px 5px;
+	height: 150px;
+}
+
+#run_info td {
+	color: gray;
+}	
+
+#run_report #subcontmed {
+	margin: 10px auto;
+	width:75%;
+	border: 1px solid #B0C2CC;
+}
+
+#run_report #wait_div {
+	margin: 10px auto;
+	width:75%;
+	border: 1px solid #B0C2CC;
+	font-weight: bold;
+}
+
+.rep_summary {
+	margin-top: 5px;
+	border:1px solid #B0C2CC;
+}
+
+.rep_summary .topheader {
+	background-color:#DAE5EE;
+	color:#000000;
+	font-size:13px;
+	font-weight:bold;
+	margin:0;
+	padding:1px;
+	text-align:center;
+	height:30px;
+	border: none 0px;
+}
+
+.rep_summary th {
+	background-color:#ECF3FA;
+	border-left:1px solid #B0C2CC;
+	border-top:1px solid #B0C2CC;
+	color:#000000;
+	font-size:11px;
+	font-weight:bold;
+	margin:0;
+	padding:1px 1px 1px 5px;
+	text-align:right;
+	height:30px;
+}
+
+.rep_summary td {
+	border-left:1px solid #B0C2CC;
+	border-top:1px solid #B0C2CC;
+	color:#000000;
+	font-size:11px;
+	margin:0;
+	padding:1px 1px 1px 5px;
+	text-align:center;
+	height:30px;
+}
+
+.rep_summary th.leftcell {
+	border-left: none;
+}
+
+.rep_head{
+	font-size: 12px;
+	margin: 40px 0 0 0px;
+}
+
+.rep_head div{	
+	font-size: 13px;	
+	width: 100%;
+	margin-left: 10px;	
+	margin-bottom: 10px;
+}
+
+.rep_head .pagingdiv{
+	padding-bottom: 0px;
+	padding-top: 5px;	
+}
+
+input.date{width: 80px;margin-right:0px;}
+
+.summary .subheader{background-color: #BFD5E7;} 

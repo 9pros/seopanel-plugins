@@ -1,0 +1,2 @@
+INSERT INTO `searchengines` (`domain`, `url`, `cookie_send`, `no_of_results_page`, `start`, `start_offset`, `max_results`, `regex`, `from_pattern`, `to_pattern`, `url_index`, `title_index`, `description_index`, `encoding`, `status`) VALUES
+('seznam.cz', 'http://search.seznam.cz/?sourceid=Federation_1&q=[--keyword--]&format=rss&from=[--start--]&count=[--num--]', '', 20, 1, 20, 40, '<item>.*?<title>(.*?)<\\/title>.*?<link>(.*?)<\\/link>.*?<description>(.*?)<\\/description>.*?<\\/item>', '', '', 2, 1, 3, '', 1);

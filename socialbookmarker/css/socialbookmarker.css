@@ -1,0 +1,41 @@
+input.large{width: 398px;}
+
+input.small{width: 60px;}
+
+#submitcontent{margin: 2px 0px;}
+
+#submitcontent iframe{border: 1px solid black;}
+
+#submitmenu {text-align: center;height: 25px;padding-left: 30%;margin-top: 40px;}
+
+#subtabs {margin: 0; padding: 0;text-align: center;}
+
+#subtabs li {
+    border: medium none;
+    display: inline;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#subtabs li a.curr {
+    background-color: #EEEEEE;
+    color: #445566;
+    font-weight: normal;
+}
+
+#subtabs li a {
+    background: none repeat scroll 0 0 #D6E4F0;
+    border-color: #FFFFFF #FFFFFF #D6E4F0;
+    border-style: solid;
+    border-width: 1px;
+    color: #5B5D5F;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 8px 6px;
+    text-decoration: none;
+}
+
+#subtabs li a:HOVER {background-color: #EEEEEE; }
